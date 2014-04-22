@@ -1,4 +1,4 @@
-NetworkManager
+Network Manager
 ==============
 
 The network management module of an energy management system for Android phones
