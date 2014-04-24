@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 应用名称 -->
+    <string name="app_name">智能网络管理</string>
+<!-- 按钮 -->
+    <string name="openwifi">WiFi已开启</string>
+    <string name="closewifi">WiFi已关闭</string>
+    <string name="switchauto">切换至 开启/关闭</string>
+    <string name="onauto">开启</string>
+    <string name="offauto">关闭</string>
+    <string name="submit">   确认   </string>
+    <string name="swi">开启网络智能管理</string>
+    <string name="exit">退出</string>
+    <string name="rib">开启WiFi</string>
+<!-- 文本框 -->
+    <string name="autotitle">智能自动管理WiFi网络：</string>
+    <string name="enter_ss_title">设置最低网速（点击查看详情）\n </string>
+    <string name="enter_i_title">设置观察时间（点击查看详情）\n </string>
+    <string name="enter_switchSpeed">输入自动切换到WiFi/GSM网络前允许的最低速度(单位：kB/s)：</string>
+    <string name="enter_switchSpeed_ex">如果当前网速低于设定值，则自动切换到GSM/WiFi网络</string>
+    <string name="enter_interval">输入允许当前网速低于设定值的时间长度(单位：秒)：</string>
+    <string name="enter_interval_ex">如果当前网速低于设定值的持续时间在该时间长度内，则暂不切换，超时后再切换网络模式</string>
+    <string name="signal">智能管理</string>
+    <string name="already">已</string>
+<!-- 对话框 -->
+    <string name="dialog_cfg_title">存在已经添加的WiFi热点</string>
+    <string name="dialog_cfg_message">成功连接当前最高信号强度的WiFi热点，具体信息如下：</string>
+    <string name="dialog_ncfg_title">存在尚未添加的WiFi热点</string>
+    <string name="dialog_ncfg_message">扫描结果中信号强度最高点尚未添加到WiFi热点配置列表，具体信息如下：</string>
+    <string name="dialog_cfg_toast">扫描到已经添加的WiFi热点，可返回网络管理界面查看详细信息</string>
+    <string name="dialog_ncfg_toast">扫描到尚未添加的WiFi热点，可返回网络管理界面查看详细信息</string>
+    <string name="to_wifi_setttings">立即配置并连接</string>
+    <string name="unknown">不详</string>
+    <string name="back">返回并继续智能管理</string>
+    <string name="back_lite">返回</string>
+    <string name="enter_ss_title_lite">设置最低网速\n </string>
+    <string name="enter_i_title_lite">设置观察时间\n </string>
+    <string name="cancel">停止智能管理</string>
+
+</resources>

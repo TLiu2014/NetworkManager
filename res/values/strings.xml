@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- app name -->
+    <string name="app_name">Networks Manager</string>
+<!-- Button -->
+    <string name="openwifi">Turn on Wi-Fi</string>
+    <string name="closewifi">Turn off Wi-Fi</string>
+    <string name="switchauto">Switch to turn on/turn off</string>
+    <string name="onauto">On</string>
+    <string name="offauto">Off</string>
+    <string name="submit">Update</string>
+    <string name="swi">Turn on Automatic Manager</string>
+    <string name="exit">Exit</string>
+    <string name="rib">Turn on Wi-Fi</string>
+<!-- TextView-->
+    <string name="autotitle">Automatic Management:</string>
+    <string name="enter_ss_title">Set threshold speed\n（Click for detailed information）\n </string>
+    <string name="enter_i_title">Set shield time\n（Click for detailed information）\n </string>
+    <string name="enter_switchSpeed">Enter the threshold speed(unit:kB/s):\n</string>
+    <string name="enter_switchSpeed_ex">Switch to GSM/Wi-Fi automatically if the speed of the current network is inferior to the threshold speed. </string>
+    <string name="enter_interval">Enter the shield time(unit:s):\n</string>
+    <string name="enter_interval_ex">Change the network modes(GSM/Wi-Fi) if it continues longer than the shield time that the speed of the current network is inferior to the threshold speed.</string>
+    <string name="signal">Automatic Management</string>
+    <string name="already">:\t</string>
+<!-- Dialog -->
+    <string name="dialog_cfg_title">Wi-Fi networks(remembered) available</string>
+    <string name="dialog_cfg_message">Connected to the Wi-Fi AP with the best signal in range, detailed information:</string>
+    <string name="dialog_ncfg_title">Wi-Fi networks(not remembered) available</string>
+    <string name="dialog_ncfg_message">The Wi-Fi AP with the best signal in scanned results(not remembered), detailed information:</string>
+    <string name="dialog_cfg_toast">Available Wi-Fi APs with the best signal in scanned results(remembered), back to networks manager panel for detailed information</string>
+    <string name="dialog_ncfg_toast">Available Wi-Fi APs with the best signal in scanned results(not remembered), back to networks manager panel for detailed information</string>
+    <string name="to_wifi_setttings">To Wi-Fi settings</string>
+    <string name="unknown">Unknown</string>
+    <string name="back">Continue</string>
+    <string name="back_lite">Back</string>
+    <string name="enter_ss_title_lite">Set threshold speed\n </string>
+    <string name="enter_i_title_lite">Set shield time\n </string>
+    <string name="cancel">Stop</string>
+
+</resources>

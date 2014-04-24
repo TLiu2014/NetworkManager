@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <View
+        android:id="@+id/v1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/tvTitle" />
+
+    <TextView
+        android:id="@+id/tvSSTile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/v1"
+        android:text="@string/enter_ss_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <EditText
+        android:id="@+id/editEntrSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvSSTile"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toLeftOf="@+id/submitEntrSpeed"
+        android:inputType="numberSigned" />
+    <Button
+        android:id="@+id/submitEntrSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSSTile"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="@string/submit" />
+    <View
+        android:id="@+id/v2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/editEntrSpeed" />
+    <TextView
+        android:id="@+id/tvITile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/v2"
+        android:text="@string/enter_i_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <EditText
+        android:id="@+id/editExitSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvITile"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toLeftOf="@+id/submitExitSpeed"
+        android:inputType="numberSigned" />
+    <Button
+        android:id="@+id/submitExitSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvITile"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="@string/submit" />
+    <View
+        android:id="@+id/v3"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/editExitSpeed" />
+    <TextView
+        android:id="@+id/tvSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBaseline="@+id/cbSwitch"
+        android:layout_toLeftOf="@+id/cbSwitch"
+        android:layout_below="@+id/v3"
+        android:text="@string/swi"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <CheckBox
+        android:id="@+id/cbSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/v3"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp"
+        android:text="" />
+
+    <View
+        android:id="@+id/v4"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/cbSwitch" />
+    <TextView
+        android:id="@+id/tvRib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBaseline="@+id/cbRib"
+        android:layout_toLeftOf="@+id/cbRib"
+        android:layout_below="@+id/v4"
+        android:text="@string/rib"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <CheckBox
+        android:id="@+id/cbRib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/v4"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:text="" />
+    <View
+        android:id="@+id/v5"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/cbRib" />
+    <TextView
+        android:id="@+id/tvExit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/v5"
+        android:layout_marginTop="10dp"
+        android:text="@string/exit"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <View
+        android:id="@+id/v6"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvExit" />
+
+</RelativeLayout>
